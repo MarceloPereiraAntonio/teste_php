@@ -1,8 +1,6 @@
 <?php
 
 $router = new Router();
-
-
 $router->addRoute('GET', '/', 'AuthController', 'showLogin');
 $router->addRoute('POST', '/login', 'AuthController', 'login');
 $router->addRoute('GET', '/funcionarios', 'FuncionarioController', 'index');

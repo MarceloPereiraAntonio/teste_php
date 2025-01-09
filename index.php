@@ -1,7 +1,4 @@
 <?php
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-
 // Configuração do autoloader
 spl_autoload_register(function ($class) {
     $directories = [
